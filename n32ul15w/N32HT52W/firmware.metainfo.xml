@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016 Richard Hughes  -->
+<component type="firmware">
+  <id>com.lenovo.ThinkPadN32HT.firmware</id>
+  <name>ThinkPad X1 Carbon 9th / X1 Yoga 6th</name>
+  <summary>Lenovo ThinkPad X1 Carbon 9th / X1 Yoga 6th Embedded Controller Firmware</summary>
+  <description>
+    <p>
+      Lenovo Thinkpad X1 Carbon 9th / X1 Yoga 6th Embedded Controller Firmware N32HT52W, version 1.32.
+    </p>
+  </description>
+  <provides>
+    <firmware type="flashed">61b65ccc-0116-4b62-80ed-ec5f089ae523</firmware>
+  </provides>
+  <url type="homepage">http://www.lenovo.com/</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>proprietary</project_license>
+  <developer_name>Lenovo Ltd.</developer_name>
+  <categories>
+    <category>X-EmbeddedController</category>
+  </categories>
+  <custom>
+    <value key="LVFS::VersionFormat">triplet</value>
+    <value key="LVFS::UpdateProtocol">org.uefi.capsule</value>
+  </custom>
+  <releases>
+    <release version="0.1.32" date="2021-02-02" urgency="high" tag="N32HT52W">
+      <checksum type="sha1" filename="firmware.bin" target="content">672841887e8f18743d2bae8bfcffdcd3a48c9a71</checksum>
+      <checksum type="sha256" filename="firmware.bin" target="content">dd2e07ed7ddb7f3c173c9544490124eef11f5ea76bc8899624cf165d852d0c5c</checksum>
+      <description>
+		<p>Lenovo Embedded Controller Firmware Version 1.32</p>
+		<p>The computer will be restarted automatically after updating ECFW completely . Do NOT turn off your computer or remove the AC adaptor while update is in progress. </p>
+      </description>
+      <size type="installed">767424</size>
+    </release>
+  </releases>
+  <requires>
+    <id compare="ge" version="1.1.0">org.freedesktop.fwupd</id>
+  </requires>
+</component>
