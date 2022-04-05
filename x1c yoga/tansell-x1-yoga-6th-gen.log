@@ -1,0 +1,180 @@
+Intel (R) ME Info Version: 15.0.35.1951
+Copyright (C) 2005 - 2021, Intel Corporation. All rights reserved.
+
+General FW Information
+                                                 
+    Platform Type                                Mobile
+    FW Image Type                                Production
+    Last ME Reset Reason                         Other
+    BIOS Boot State                              Post Boot
+    Boot Critical Code Redundancy                Enabled
+    Current Boot Partition                       1
+    Factory Defaults Recovery Status             Enabled
+    Firmware Update OEM ID                       4C656E6F-766F-0000-0000-000000000000
+    TCSS FW partial update                       Disabled
+    Crypto HW Support                            Enabled
+    Intel(R) ISH Power State                     Enabled
+    OEM Tag                                      0x00
+    FW Update State                              Enabled
+    TLS State                                    Enabled
+    CSME Measured Boot to TPM                    Enabled
+    BIOS Recovery State                          Disabled
+                                                 
+Intel(R) ME Code Versions                        
+    BIOS Version                                 N32ET75W (1.51 )
+    MEI Driver Version                           2204.2.62.0
+    FW Version                                   15.0.35.1951 LP Consumer
+    LMS Version                                  2130.1.16.6
+                                                 
+IUPs Information                                 
+    PMC FW Version                               150.1.20.1039
+    OEM FW Version                               1.0.0.0002
+    ISHC FW Version                              5.4.2.4469
+    IOM FW Version                               17.22.0.0000
+    NPHY FW Version                              11.225.256.2041
+    TBT FW Version                               15.0.0.4402
+    PCHC FW Version                              15.0.0.1021
+                                                 
+PCH Information                                  
+    PCH Name                                     TGL
+    PCH Device ID                                A082
+    PCH Revision ID                              B0
+    PCH SKU Type                                 Production PRQ Revenue
+    PCH Replacement State                        Disabled
+    PCH Replaceable Counter                      0
+    PCH Unlocked State                           Disabled
+                                                 
+Transactional FW Information                     
+    Original image type                          Consumer
+    Current sku type                             Consumer
+                                                 
+Flash Information                                
+    Storage Device Type                          SPI
+    SPI Flash ID 1                               EF4019
+    RPMC                                         Supported
+    RPMC Bind Counter                            1
+    RPMC Bind Status                             Post-bind
+    RPMC Rebind                                  Supported
+    RPMC Replay Protection Max Rebind            15
+    BIOS Read Access                             0x010F
+    BIOS Write Access                            0x010A
+    GBE Read Access                              0x0009
+    GBE Write Access                             0x0008
+    ME Read Access                               0x000D
+    ME Write Access                              0x0004
+    EC Read Access                               0x0103
+    EC Write Access                              0x0100
+                                                 
+FW Capabilities                                  0x31319600
+    Intel(R) Protected Audio Video Path          Present/Enabled
+    Intel(R) Dynamic Application Loader          Present/Enabled
+    Intel(R) Platform Trust Technology           Present/Disabled
+    Persistent RTC and Memory                    Present/Enabled
+                                                 
+End Of Manufacturing                             
+    NVAR Configuration State                     Unlocked
+    EOM Settings                                 Lock(Flash)
+    HW Binding State                             Enabled
+    Flash Protection Mode                        Protected
+    FPF Committed                                Yes
+                                                 
+Trusted Device Setup                             
+                                                 
+Intel(R) Protected Audio Video Path              
+    Widevine provisioning state                  Not Provisioned
+    Attestation KeyBox                           Not Provisioned
+    PAVP State                                   Yes
+                                                 
+Security Version Numbers                         
+    Trusted Computing Base SVN                   1
+                                                 
+    Anti Rollback SVNs                           
+          PMC                                    0   [minimum allowed: 0]
+          CSE                                    4   [minimum allowed: 4]
+          ROT KM                                 0   [minimum allowed: 0]
+          IDLM                                   0   [minimum allowed: 0]
+          SECURE BOOT BSMM                       1   [minimum allowed: 1]
+          OEM KM                                 1   [minimum allowed: 1]
+          SECURE BOOT KM                         0   [minimum allowed: 0]
+          SECURE BOOT ACM                        2   [minimum allowed: 2]
+                                                 
+HW Glitch Detection                              0x08
+    TRC Polarity                                 Rising Trans
+    TRC Mode                                     Full-cycle polarity trans
+    TRC State                                    Disabled
+                                                 
+Intel(R) Platform Trust Technology               
+    Intel(R) PTT initial power-up state          Disabled
+    Intel(R) PTT State                           Disabled
+    SMx State                                    Enabled
+    RSA1K Support                                Enabled
+                                                 
+FW Supported FPFs                                FPF         UEP
+                                                 *In Use
+                                                 ---         ---
+1st OEM Key Hash Revoked                         Disabled    Disabled      
+1st OEM Key Hash size                            Enabled     Enabled       
+1st OEM RSA Key size                             Enabled     Enabled       
+2nd OEM Key Hash Revoked                         Disabled    Disabled      
+2nd OEM Key Hash size                            Enabled     Enabled       
+2nd OEM RSA Key size                             Disabled    Disabled      
+BSMM Anti Rollback                               Enabled     Enabled       
+DAL OEM Signing                                  Disabled    Disabled      
+DNX Anti Rollback                                Enabled     Enabled       
+EOM Flow                                         Flexible    Flexible      
+Error Enforcement Policy 0                       Enabled     Enabled       
+Error Enforcement Policy 1                       Enabled     Enabled       
+Flash Descriptor Verification                    Disabled    Disabled      
+Glitch Detection Disabled                        Enabled     Enabled       
+Glitch Detection Enabled                         Disabled    Disabled      
+IDLM Anti Rollback                               Enabled     Enabled       
+Intel PTT Encryption Key                         Not Revoked Not Revoked   
+Intel(R) Manageability HW Fuse Status            Disabled    Disabled      
+Intel(R) PTT                                     Enabled     Enabled       
+OEM ID                                           0x00        0x00          
+OEM KM Anti Rollback                             Enabled     Enabled       
+OEM Key Manifest                                 Enabled     Enabled       
+OEM Key Revocation State                         Disabled    Disabled      
+OEM Platform ID                                  0x00        0x00          
+OEM Secure Boot Policy                           0x79        0x79          
+CPU Debugging                                    Enabled     Enabled       
+BSP Initialization                               Enabled     Enabled       
+Protect BIOS Environment                         Enabled     Enabled       
+Measured Boot                                    Enabled     Enabled       
+Verified Boot                                    Enabled     Enabled       
+Key Manifest ID                                  0x01        0x01          
+Force Boot Guard ACM                             Enabled     Enabled       
+OEM key Hash RSA key size                        Enabled     Enabled       
+PID Refurbish Counter                            0x00        0x00          
+PMC Anti Rollback                                Enabled     Enabled       
+PTT Lockout Override Counter                     0x00        0x00          
+Persistent PRTC Backup Power                     Enabled     Enabled       
+RBE Anti Rollback                                Enabled     Enabled       
+ROT Anti Rollback                                Enabled     Enabled       
+RPMB Monotonic Counters                          0x00        0x00          
+RPMC Rebinding                                   Enabled     Enabled       
+RPMC Support                                     Enabled     Enabled       
+SOC Config Lock State                            Enabled     Disabled      
+SPI Boot Source                                  Enabled     Enabled       
+SPIRAL CPU                                       Disabled    Disabled      
+Secure boot KM Anti Rollback                     Enabled     Enabled       
+TXT Supported                                    Disabled    Disabled      
+UFS Boot Source                                  Disabled    Disabled      
+USB Port ID                                      0x00        0x00          
+uCode Anti Rollback                              Disabled    Disabled      
+
+DNX SVN                                          0x03        0x03          
+IDLM SVN                                         0x00        0x00          
+OEM KM SVN                                       0x01        0x01          
+PMC SVN                                          0x00        0x00          
+ROT KM SVN                                       0x00        0x00          
+Secure boot ACM SVN                              0x02        0x02          
+Secure boot BSMM SVN                             0x01        0x01          
+Secure boot KM SVN                               0x00        0x00          
+Ucode SVN                                        0x00        0x00          
+
+
+1st OEM Public Key Hash FPF                      C4D09E00AE4C3A38BB28F2E32EC43023280F74FDC6CEB7852F2E65C2D11903DB345E9DF84B0147AECC4522CEA32FB093
+1st OEM Public Key Hash UEP                      C4D09E00AE4C3A38BB28F2E32EC43023280F74FDC6CEB7852F2E65C2D11903DB345E9DF84B0147AECC4522CEA32FB093
+2nd OEM Public Key Hash FPF                      000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+2nd OEM Public Key Hash UEP                      000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
