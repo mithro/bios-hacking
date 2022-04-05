@@ -1,0 +1,64 @@
+Intel (R) Flash Programming Tool Version: 15.0.35.1951
+Copyright (C) 2005 - 2021, Intel Corporation. All rights reserved.
+
+LPC Device Id: A082.
+Platform: Tigerlake Platform 
+General FW Information
+    FW Status Register1                          0x90000245
+    FW Status Register2                          0x89110106
+    FW Status Register3                          0x00000020
+    FW Status Register4                          0x00004000
+    FW Status Register5                          0x00001F03
+    FW Status Register6                          0x444003C9
+
+    Current FW State                             Normal
+    Flash Partition Table                        Valid
+    FW Memory State                              CM0 with UMA
+    FW Initialization                            Complete
+    BUP Loading state                            Success
+    FW Error Code                                No Error
+    FW Mode Of Operation                         Normal
+    SPI Flash Log                                Not Present
+    FW Loading Phase                             Maestro
+    FW Loading Phase Status                      MAESTRO_CM0_ENTRY_COMPLETE_START
+    ME File System Corrupted                     No
+    RPMC status                                  OK
+Initializing SPI utilities
+Reading HSFSTS register... Flash Descriptor: Valid 
+
+Region Limits as programmed into the SPI Registers 
+    FREG0 -  DESC       Region:Base Address: 0x000000   Limit :  0x000FFF 
+    FREG1 -  BIOS       Region:Base Address: 0x1000000   Limit :  0x1FFFFFF 
+    FREG2 -  CSME       Region:Base Address: 0x001000   Limit :  0xF7FFFF 
+    FREG3 -  GbE        Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG4 -  PDR        Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG5 -             Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG6 -             Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG7 -             Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG8 -  EC         Region:Base Address: 0xF80000   Limit :  0xFFFFFF 
+    FREG9 -             Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG10 -             Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG11 -             Region:Base Address: 0x7FFF000   Limit :  0x000FFF 
+    FREG12 -             Region:Base Address: 0x133E000   Limit :  0x1FFFFFF 
+    FREG13 -             Region:Base Address: 0x000000   Limit :  0x000FFF 
+    FREG14 -             Region:Base Address: 0x000000   Limit :  0x000FFF 
+    FREG15 -             Region:Base Address: 0x000000   Limit :  0x000FFF 
+Address Limit 0x2000000    Maximum Memory 32768kB 
+
+
+    --- Flash Devices Found ---
+    ID:0xEF4019    Size: 32768KB (262144Kb)
+
+Using hardware sequencing.
+Reading region information from flash descriptor.
+Base: 0x00000000, Limit: 0x00000FFF
+Base: 0x01000000, Limit: 0x01FFFFFF
+Base: 0x00001000, Limit: 0x00F7FFFF
+Base: 0x00F80000, Limit: 0x00FFFFFF
+DumpFlashToFile (bios.bin, 0x0, 0x0)...
+
+- Reading Flash [0x0000040]     0KB of 32768KB -   0 percent complete.- Reading Flash [0x0051EC0]   327KB of 32768KB -   1 percent complete.- Reading Flash [0x00A3D80]   655KB of 32768KB -   2 percent complete.- Reading Flash [0x00F5C40]   983KB of 32768KB -   3 percent complete.- Reading Flash [0x0147B00]  1310KB of 32768KB -   4 percent complete.- Reading Flash [0x01999C0]  1638KB of 32768KB -   5 percent complete.- Reading Flash [0x01EB880]  1966KB of 32768KB -   6 percent complete.- Reading Flash [0x023D740]  2293KB of 32768KB -   7 percent complete.- Reading Flash [0x028F600]  2621KB of 32768KB -   8 percent complete.- Reading Flash [0x02E1480]  2949KB of 32768KB -   9 percent complete.- Reading Flash [0x0333340]  3276KB of 32768KB -  10 percent complete.- Reading Flash [0x0385200]  3604KB of 32768KB -  11 percent complete.- Reading Flash [0x03D70C0]  3932KB of 32768KB -  12 percent complete.- Reading Flash [0x0428F80]  4259KB of 32768KB -  13 percent complete.- Reading Flash [0x047AE40]  4587KB of 32768KB -  14 percent complete.- Reading Flash [0x04CCD00]  4915KB of 32768KB -  15 percent complete.- Reading Flash [0x051EBC0]  5242KB of 32768KB -  16 percent complete.- Reading Flash [0x0570A40]  5570KB of 32768KB -  17 percent complete.- Reading Flash [0x05C2900]  5898KB of 32768KB -  18 percent complete.- Reading Flash [0x06147C0]  6225KB of 32768KB -  19 percent complete.- Reading Flash [0x0666680]  6553KB of 32768KB -  20 percent complete.- Reading Flash [0x06B8540]  6881KB of 32768KB -  21 percent complete.- Reading Flash [0x070A400]  7209KB of 32768KB -  22 percent complete.- Reading Flash [0x075C2C0]  7536KB of 32768KB -  23 percent complete.- Reading Flash [0x07AE180]  7864KB of 32768KB -  24 percent complete.- Reading Flash [0x0800000]  8192KB of 32768KB -  25 percent complete.- Reading Flash [0x0851EC0]  8519KB of 32768KB -  26 percent complete.- Reading Flash [0x08A3D80]  8847KB of 32768KB -  27 percent complete.- Reading Flash [0x08F5C40]  9175KB of 32768KB -  28 percent complete.- Reading Flash [0x0947B00]  9502KB of 32768KB -  29 percent complete.- Reading Flash [0x09999C0]  9830KB of 32768KB -  30 percent complete.- Reading Flash [0x09EB880] 10158KB of 32768KB -  31 percent complete.- Reading Flash [0x0A3D740] 10485KB of 32768KB -  32 percent complete.- Reading Flash [0x0A8F600] 10813KB of 32768KB -  33 percent complete.- Reading Flash [0x0AE1480] 11141KB of 32768KB -  34 percent complete.- Reading Flash [0x0B33340] 11468KB of 32768KB -  35 percent complete.- Reading Flash [0x0B85200] 11796KB of 32768KB -  36 percent complete.- Reading Flash [0x0BD70C0] 12124KB of 32768KB -  37 percent complete.- Reading Flash [0x0C28F80] 12451KB of 32768KB -  38 percent complete.- Reading Flash [0x0C7AE40] 12779KB of 32768KB -  39 percent complete.- Reading Flash [0x0CCCD00] 13107KB of 32768KB -  40 percent complete.- Reading Flash [0x0D1EBC0] 13434KB of 32768KB -  41 percent complete.- Reading Flash [0x0D70A40] 13762KB of 32768KB -  42 percent complete.- Reading Flash [0x0DC2900] 14090KB of 32768KB -  43 percent complete.- Reading Flash [0x0E147C0] 14417KB of 32768KB -  44 percent complete.- Reading Flash [0x0E66680] 14745KB of 32768KB -  45 percent complete.- Reading Flash [0x0EB8540] 15073KB of 32768KB -  46 percent complete.- Reading Flash [0x0F0A400] 15401KB of 32768KB -  47 percent complete.- Reading Flash [0x0F5C2C0] 15728KB of 32768KB -  48 percent complete.- Reading Flash [0x0FAE180] 16056KB of 32768KB -  49 percent complete.- Reading Flash [0x1000000] 16384KB of 32768KB -  50 percent complete.- Reading Flash [0x1051EC0] 16711KB of 32768KB -  51 percent complete.- Reading Flash [0x10A3D80] 17039KB of 32768KB -  52 percent complete.- Reading Flash [0x10F5C40] 17367KB of 32768KB -  53 percent complete.- Reading Flash [0x1147B00] 17694KB of 32768KB -  54 percent complete.- Reading Flash [0x11999C0] 18022KB of 32768KB -  55 percent complete.- Reading Flash [0x11EB880] 18350KB of 32768KB -  56 percent complete.- Reading Flash [0x123D740] 18677KB of 32768KB -  57 percent complete.- Reading Flash [0x128F600] 19005KB of 32768KB -  58 percent complete.- Reading Flash [0x12E1480] 19333KB of 32768KB -  59 percent complete.- Reading Flash [0x1333340] 19660KB of 32768KB -  60 percent complete.- Reading Flash [0x1385200] 19988KB of 32768KB -  61 percent complete.- Reading Flash [0x13D70C0] 20316KB of 32768KB -  62 percent complete.- Reading Flash [0x1428F80] 20643KB of 32768KB -  63 percent complete.- Reading Flash [0x147AE40] 20971KB of 32768KB -  64 percent complete.- Reading Flash [0x14CCD00] 21299KB of 32768KB -  65 percent complete.- Reading Flash [0x151EBC0] 21626KB of 32768KB -  66 percent complete.- Reading Flash [0x1570A40] 21954KB of 32768KB -  67 percent complete.- Reading Flash [0x15C2900] 22282KB of 32768KB -  68 percent complete.- Reading Flash [0x16147C0] 22609KB of 32768KB -  69 percent complete.- Reading Flash [0x1666680] 22937KB of 32768KB -  70 percent complete.- Reading Flash [0x16B8540] 23265KB of 32768KB -  71 percent complete.- Reading Flash [0x170A400] 23593KB of 32768KB -  72 percent complete.- Reading Flash [0x175C2C0] 23920KB of 32768KB -  73 percent complete.- Reading Flash [0x17AE180] 24248KB of 32768KB -  74 percent complete.- Reading Flash [0x1800000] 24576KB of 32768KB -  75 percent complete.- Reading Flash [0x1851EC0] 24903KB of 32768KB -  76 percent complete.- Reading Flash [0x18A3D80] 25231KB of 32768KB -  77 percent complete.- Reading Flash [0x18F5C40] 25559KB of 32768KB -  78 percent complete.- Reading Flash [0x1947B00] 25886KB of 32768KB -  79 percent complete.- Reading Flash [0x19999C0] 26214KB of 32768KB -  80 percent complete.- Reading Flash [0x19EB880] 26542KB of 32768KB -  81 percent complete.- Reading Flash [0x1A3D740] 26869KB of 32768KB -  82 percent complete.- Reading Flash [0x1A8F600] 27197KB of 32768KB -  83 percent complete.- Reading Flash [0x1AE1480] 27525KB of 32768KB -  84 percent complete.- Reading Flash [0x1B33340] 27852KB of 32768KB -  85 percent complete.- Reading Flash [0x1B85200] 28180KB of 32768KB -  86 percent complete.- Reading Flash [0x1BD70C0] 28508KB of 32768KB -  87 percent complete.- Reading Flash [0x1C28F80] 28835KB of 32768KB -  88 percent complete.- Reading Flash [0x1C7AE40] 29163KB of 32768KB -  89 percent complete.- Reading Flash [0x1CCCD00] 29491KB of 32768KB -  90 percent complete.- Reading Flash [0x1D1EBC0] 29818KB of 32768KB -  91 percent complete.- Reading Flash [0x1D70A40] 30146KB of 32768KB -  92 percent complete.- Reading Flash [0x1DC2900] 30474KB of 32768KB -  93 percent complete.- Reading Flash [0x1E147C0] 30801KB of 32768KB -  94 percent complete.- Reading Flash [0x1E66680] 31129KB of 32768KB -  95 percent complete.- Reading Flash [0x1EB8540] 31457KB of 32768KB -  96 percent complete.- Reading Flash [0x1F0A400] 31785KB of 32768KB -  97 percent complete.- Reading Flash [0x1F5C2C0] 32112KB of 32768KB -  98 percent complete.- Reading Flash [0x1FAE180] 32440KB of 32768KB -  99 percent complete.- Reading Flash [0x2000000] 32768KB of 32768KB - 100 percent complete.
+Writing flash contents to file "bios.bin"...
+Memory Dump Complete
+FPT Operation Successful.
+
